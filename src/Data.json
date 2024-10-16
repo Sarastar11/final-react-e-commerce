@@ -1,0 +1,41 @@
+{
+    "products": [
+
+{
+    "id": 1,
+    "title": "Brown Leather Belt Watch",
+    "price": 89.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/thumbnail.png"
+},
+{
+    "id": 2,
+    "title": "Longines Master Collection",
+    "price": 1499.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/thumbnail.png"
+},
+{
+    "id": 3,
+    "title": "Longines Master Collection",
+    "price": 1499.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/thumbnail.png"
+},
+{
+    "id": 4,
+    "title": "Rolex Cellini Moonphase",
+    "price": 12999.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png"
+},
+{
+    "id": 5,
+    "title": "Rolex Datejust",
+    "price": 10999.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/thumbnail.png"
+},
+{
+    "id": 6,
+    "title": "Rolex Submariner Watch",
+    "price": 13999.99,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png"
+}
+    ]
+}

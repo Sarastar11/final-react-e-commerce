@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+body{
+  font-family: "Taviraj", serif;
+
+}
+
+h2 ,h4,.slidertitle{
+  position: relative;
+  display: inline-block;
+  font-family: "Taviraj", serif;
+  padding-bottom: 10px;
+}
+.slidertitle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 25%; 
+  height: 1px; 
+  background-color: currentColor; 
+margin-bottom: 15px;
+  margin-left: 5px;
+}
+#instagram::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%; 
+  height: 1px; 
+  background-color: currentColor; 
+  margin-left: 15px;
+}
+h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: 1px; 
+  background-color: currentColor;
+}
+h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%; 
+  height: 1px; 
+  background-color: currentColor;
+  margin-left: 5px;
+}
+
+#news{
+  background-image: url(../src/images/Rectangle21.png);
+
+}
+#newsButton{
+  width: 160px;
+  height: 56px;
+   border: 2px solid rgba(216, 71, 39, 1) ;
+   border-radius: 0px;
+   background-color: transparent;
+   color: rgba(216, 71, 39, 1);
+}
+#newsimage{
+   margin-bottom: -300px;  
+    margin-left: -200px;  
+      margin-top: 100px;
+    width: 600px
+}
+#productsCard {
+  width: 150%;
+  height: 150%;
+  object-fit: contain;
+  margin-top: -65px;
+
+}
+#card{
+background: rgba(255, 255, 255, 1);
+  width: 23%;
+margin-top: 10px;
+
+border: none;
+}
+#hoverbtn{
+  opacity: 0;
+}
+#hoverbtn:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+  opacity: 1;
+ 
+}
+
+#card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  
+}
+#cardrelate:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+
+}
+#card2{
+  background: rgba(255, 255, 255, 1);
+display: flex;
+margin-top: 10px;
+
+border: none;
+  width: 100%;
+}
+#products::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%; 
+  height: 1px; 
+  background-color: currentColor; 
+  margin-left: 15px;
+}
+
+
+#card2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+#card2{
+  padding: 20px;
+  border-radius: 0px;
+}
+#luximg{
+  display: flex;
+  height: 40%;
+  align-items: end;
+padding-left: 150px;
+}
+#luximg2{
+  display: flex;
+  height: 21%;
+  width: 60%;
+  align-items: end;
+}
+#slider{
+  background: url(../src/images/Rectangle1.png);
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 60px;
+position: relative;
+padding-top: 5%;
+border: none;
+border-radius: 0px;
+
+}
+#mainwatch{
+  position: absolute;
+  top: 35%;
+  right: 70%;
+  padding-left: 8%;
+
+}
+.watch-image{
+  width: 20%;  /* //instagram */
+  padding: 0px;
+}
+#details1{
+ background:  rgba(241, 221, 201, 1);
+ margin-top: 50px;
+ padding-left: 15%;
+ position: relative;
+margin-left: 0px;
+border: 0px;
+border-radius: 0px;
+margin-bottom: 10%;
+padding-bottom: 15%;
+}
+#details11{
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+font-size: 60px;
+margin-top: 60px;
+padding-left: 10%;
+padding-right: 10%;
+}
+.zoom {
+  transition: transform 0.2s ease-in-out; 
+ 
+}
+.zoom:hover {
+  transform: scale(1.5); 
+}
+.thumbnails{
+  transition: transform 0.3s ease-in-out;
+ width:90%; 
+position: absolute;
+left: 50%;
+right: 50%;
+top: 5%;
+
+}
+.thumbnails:hover{
+  transform: scale(1.5);
+
+}
+
+#Detail-tab{
+  color:rgba(216, 71, 39, 1);
+  
+}
+#formBtn1{
+border: rgba(216, 71, 39, 1) 1px solid;
+color: rgba(216, 71, 39, 1);
+background-color: transparent;
+border-radius: 0px;
+text-align: center;
+width: 100%;
+}
+#formBtn1:hover{
+  background-color: rgba(216, 71, 39, 1);
+  color: white;
+}
+#formBtn2{
+  background-color: rgba(216, 71, 39, 1);
+  color: white ;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+  width: 100%;
+}
+#formBtn2:hover{
+  background-color: transparent;
+  color: rgba(216, 71, 39, 1);
+  border: rgba(216, 71, 39, 1) 1px solid;
+}
+#formBtn3{
+  background-color: rgba(216, 71, 39, 1);
+  color: white ;
+  text-align: center;
+  border-radius: 0px;
+  border: none;
+
+}
+#formBtn3:hover{
+  background-color: transparent;
+  color: rgba(216, 71, 39, 1);
+  border: rgba(216, 71, 39, 1) 1px solid;
+}
+/* *********************************************************************************
+    mobile version */
+    @media only screen and (max-width: 600px) {
+.sliderComponent{
+  display: none;
+}
+.productsComponent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#card{
+  flex: 1 1 100%;
+
+}
+.newsComponent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.news{
+  flex: 1 1 100%;
+  background-color: inherit;
+}
+#newsimage{
+  margin: 0px;
+}
+#newsButton{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.sponsorsComponent{
+  display: none;
+}
+.testemonialComponent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.testemonImg {
+  flex: 1 1 100%;
+  margin: 0px;
+ 
+}
+.testemonImg1 {
+  flex: 1 1 100%;
+  background-color: inherit;
+ background-color: inherit;
+width: 50%;
+margin-top: 370px;
+}
+.instagramImages{
+  flex-direction: column;
+}
+.watch-image{
+  width: 100%;
+  padding: 0px;
+}
+a#navCart.nav-link{
+width: 10%;
+}
+}
